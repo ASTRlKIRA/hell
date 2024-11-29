@@ -140,10 +140,16 @@ def render():
     print(Colorate.Vertical(Colors.red_to_black, Add.Add(banner, icon, 0)))
     
     if page == 1:
-        os.system("title H Ǝ L L ~ 1")
+        if platform.system() == "Windows":
+            os.system("title H Ǝ L L ~ 1")
+        else:
+            pass
         print(menu1)
     elif page == 2:
-        os.system("title H Ǝ L L ~ 2")
+        if platform.system() == "Windows":
+            os.system("title H Ǝ L L ~ 2")
+        else:
+            pass
         print(menu2)
     else:
         pass
