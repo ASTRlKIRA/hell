@@ -1,6 +1,0 @@
-pystyle
-dnspython
-whois
-requests
-beautifulsoup4
-phonenumbers
