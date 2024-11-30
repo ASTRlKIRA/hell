@@ -1,1 +1,0 @@
-python hell.py
